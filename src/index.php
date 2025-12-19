@@ -1,4 +1,3 @@
-cat > src/index.php <<'EOF'
 <?php
 echo "<h1>Test de la Stack Docker Compose</h1>";
 
@@ -22,5 +21,3 @@ if ($conn->connect_error) {
 
 echo "<p style='color:green'>✅ Succès ! PHP est connecté à MySQL.</p>";
 ?>
-EOF
-
