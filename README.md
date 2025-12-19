@@ -91,7 +91,7 @@ curl -I http://localhost:8080/
 
 ## Accès depuis un navigateur (très important)
 
-✅ `localhost` dans le navigateur = **ta machine hôte**, pas la VM.
+`localhost` dans le navigateur = **ta machine hôte**, pas la VM.
 
 1. Récupérer l’IP de la VM :
 
@@ -130,7 +130,7 @@ Les identifiants sont définis dans `docker-compose.yml` :
 * Host : `db` (nom du service docker-compose)
 * Root password : `root`
 
-👉 Dans `src/index.php`, la connexion doit pointer vers **host = `db`**.
+Dans `src/index.php`, la connexion doit pointer vers **host = `db`**.
 
 ---
 
@@ -173,7 +173,7 @@ Arrêter la stack :
 docker compose down
 ```
 
-⚠️ Reset complet (supprime les données MySQL) :
+Reset complet (supprime les données MySQL) :
 
 ```bash
 docker compose down -v
@@ -188,11 +188,6 @@ docker compose up -d --build
 
   * Souvent dû à l’absence d’index servable (`index.html`) ou à `index.php` non déclaré en index.
   * Solution : ajouter `DirectoryIndex index.php index.html` dans `apache/my-vhost.conf`.
-
-* **Apache ne démarre pas** avec `Invalid command 'cat'` :
-
-  * Cause : une commande shell (`cat > fichier <<EOF`) a été copiée *dans* un fichier de config.
-  * Rappel : un fichier `.yml` / `Dockerfile` / `.conf` ne doit contenir que son format, **pas** les commandes shell de création.
 
 * **SELinux (Rocky)** :
 
