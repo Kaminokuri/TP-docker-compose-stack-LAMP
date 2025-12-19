@@ -182,7 +182,7 @@ docker compose up -d --build
 
 ---
 
-## Problèmes rencontrés (et leçon à retenir)
+## Problèmes rencontrés (et leçons à retenir)
 
 * **403 Forbidden** sur `/` :
 
