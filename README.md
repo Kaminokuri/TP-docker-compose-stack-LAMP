@@ -10,7 +10,6 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
   <img src="https://img.shields.io/badge/DOCKER%20COMPOSE-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
   <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/ROCKY%20LINUX%2010-10B981?style=for-the-badge&logo=linux&logoColor=white" alt="Rocky Linux 10" />
-  <img src="https://img.shields.io/badge/STACK-LAMP-3B82F6?style=for-the-badge" alt="Stack LAMP" />
   <img src="https://img.shields.io/badge/STATUS-TP-22C55E?style=for-the-badge" alt="Status TP" />
 </p>
 
