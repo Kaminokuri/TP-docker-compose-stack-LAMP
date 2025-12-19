@@ -20,6 +20,8 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 
 </div>
 
+---
+
 - **Apache** : image officielle `httpd:2.4`
 - **MySQL** : image officielle `mysql:8.0`
 - **PHP-FPM** : build via `php/Dockerfile` (PHP 8.3 + extension `mysqli`)
