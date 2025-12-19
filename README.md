@@ -12,6 +12,10 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 - Code applicatif dans `src/`, monté dans le conteneur
 - Accès HTTP via le port **8080**
 
+---
+
+### 🛠️ **Technologies et Outils**
+
 <div align="center">
 
 <!-- Badges (style "for-the-badge") -->
