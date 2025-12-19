@@ -4,6 +4,18 @@
 
 Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker Compose** sur **Rocky Linux 10**.
 
+<!-- Badges (optionnels) -->
+<p>
+  <img src="https://img.shields.io/badge/Docker-Engine-blue" alt="Docker badge" />
+  <img src="https://img.shields.io/badge/Docker-Compose-blue" alt="Docker Compose badge" />
+  <img src="https://img.shields.io/badge/Stack-LAMP-blue" alt="LAMP badge" />
+  <img src="https://img.shields.io/badge/OS-Rocky%20Linux%2010-blue" alt="Rocky Linux badge" />
+  <img src="https://img.shields.io/badge/Apache-httpd%202.4-blue" alt="Apache badge" />
+  <img src="https://img.shields.io/badge/MySQL-8.0-blue" alt="MySQL badge" />
+  <img src="https://img.shields.io/badge/PHP-FPM%208.3-blue" alt="PHP badge" />
+  <img src="https://img.shields.io/badge/Status-TP-green" alt="Status badge" />
+</p>
+
 </div>
 
 - **Apache** : image officielle `httpd:2.4`
