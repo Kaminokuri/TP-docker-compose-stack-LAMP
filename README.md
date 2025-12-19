@@ -11,6 +11,7 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 - Accès HTTP via le port **8080**
 
 </div>
+
 ---
 
 ## Dépôt
