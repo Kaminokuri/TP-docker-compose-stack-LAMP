@@ -91,12 +91,10 @@ curl -I http://localhost:8080/
 
 ## Accès depuis un navigateur (très important)
 
-`localhost` dans le navigateur = **ta machine hôte**, pas la VM.
-
 1. Récupérer l’IP de la VM :
 
 ```bash
-ip -4 a
+ip a
 ```
 
 2. Dans le navigateur :
